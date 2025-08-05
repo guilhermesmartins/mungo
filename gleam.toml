@@ -15,14 +15,14 @@ repository = { type = "github", user = "massivefermion", repo = "mungo" }
 internal_modules = ["mungo/tcp", "mungo/scram", "mungo/cursor", "mungo/client"]
 
 [dependencies]
-bison = "~> 1.7"
-gleam_crypto = "~> 1.4"
-gleam_erlang = "~> 0.33"
-gleam_otp = "~> 0.16"
-gleam_stdlib = ">= 0.49.0 or < 2.0.0"
-mug = "~> 1.2"
 gleam_deque = ">= 1.0.0 and < 2.0.0"
 gleam_yielder = ">= 1.1.0 and < 2.0.0"
+gleam_crypto = ">= 1.5.1 and < 2.0.0"
+gleam_erlang = ">= 0.33.0 and < 1.0.0"
+bison = ">= 1.7.0 and < 2.0.0"
+gleam_otp = ">= 0.16.1 and < 1.0.0"
+gleam_stdlib = ">= 0.49.0 and < 1.0.0"
+mug = ">= 1.2.0 and < 2.0.0"
 
 [dev-dependencies]
 gleeunit = "~> 1.2"
